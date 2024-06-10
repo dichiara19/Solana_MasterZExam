@@ -17,7 +17,7 @@ const connection = new Connection('https://api.devnet.solana.com', 'confirmed');
     myTokenAccount.address,
     keypair.publicKey,
     [],
-    1000000000, // Number of tokens to mint (in smallest unit, e.g., if decimals=9, this means 1 token)
+    1000000000,
   );
 
   console.log(`Minted tokens to: ${myTokenAccount.address.toBase58()}`);
