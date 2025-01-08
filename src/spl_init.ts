@@ -13,7 +13,7 @@ const connection = new Connection('https://api.devnet.solana.com', 'confirmed');
     keypair,
     keypair.publicKey,
     null,
-    9, // Number of decimal places for the token
+    9,
     TOKEN_PROGRAM_ID,
   );
 
